@@ -24,7 +24,7 @@
     "webpack-remote-types-plugin": "0.2.7"
   },
   "scripts": {
-    "start": "yarn tar && webpack serve --mode development",
+    "start": "yarn dts && yarn tar && webpack serve --mode development",
     "serve": "yarn build && yarn tar && serve dist -p 3002",
     "build": "webpack --mode production",
     "dts": "webpack --name dts --mode development",

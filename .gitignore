@@ -1,2 +1,3 @@
 .wp_federation/
 /node_modules
+/dist
